@@ -18,3 +18,4 @@ A simple PyQt5 application for currency conversion. This application allows user
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
+pyinstaller --onefile --noconsole --icon=path/to/icon.ico main.py
